@@ -1,0 +1,115 @@
+body {
+  background-color: #f0f8ff; /* Light blue */
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url('../public/favicon.ico');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Style navigation menu */
+.navbar {
+  background-color: #4682b4; /* Steel blue */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #ffffff; /* White text */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* White text */
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f8ff; /* Light blue */
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #00008b; /* Dark blue */
+}
+
+/* Style tables */
+.table {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #4682b4; /* Steel blue */
+  color: #ffffff; /* White text */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e0ffff; /* Light cyan */
+}
+
+/* Style buttons */
+.btn {
+  background-color: #4682b4; /* Steel blue */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5a9bd4; /* Lighter steel blue */
+}
+
+/* Style links */
+a {
+  color: #4682b4; /* Steel blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5a9bd4; /* Lighter steel blue */
+  text-decoration: underline;
+}
